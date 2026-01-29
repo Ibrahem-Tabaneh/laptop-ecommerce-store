@@ -19,7 +19,7 @@ Swagger
 
 # Additional Notes:
 The website is currently online, but it runs slightly slow due to large data volume and server quality issues.
- Live Website: https://lapshoptest.premiumasp.net/ 
+ Live Website: http://laptopstore1.runasp.net/ 
 Issue Observed: it might take a few minutes to load the rst time due to hosting initialization
 
 # How to Run the Project Locally:
