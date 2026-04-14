@@ -58,4 +58,4 @@ A robust e-commerce web application dedicated to laptops, developed using the AS
 
 
 
-📫 **Connect with me:** [LinkedIn](www.linkedin.com/in/ibrahem-tabaneh-249683249)
+📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/ibrahem-tabaneh-249683249)
