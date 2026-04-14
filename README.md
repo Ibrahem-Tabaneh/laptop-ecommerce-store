@@ -1,65 +1,47 @@
-# LapStore
+# 💻 Laptop E-Commerce Store (ASP.NET Core MVC)
 
-PROJECT: E-COMMERCE LAPTOP STORE | Apr 2025 – May 2025
+A robust e-commerce web application dedicated to laptops, developed using the ASP.NET Core MVC architectural pattern and industry-standard design patterns to ensure scalability and maintainable code.
 
-# Description:
-This is an online e-commerce platform for laptops, with two types of users: Admin and Customer.
-
-Customer: Can browse products, add them to the cart, purchase them, and view their orders.
-
-Admin: Can manage products, categories, pages, website settings, operating systems, colors, and oversee orders (CRUD operations).
-
-# Users Information
-
-Admin: ibrahemtabaneh@gmail.com
-
-Password: 123456
-
-Customer: You can create your own account
-
-# Technologies Used
-
-.NET Core 6
-
-MVC
-
-Design Patterns: Repository Pattern, Unit of Work
-
-Clean Architecture
-
-RESTful API & Swagger
-
-SQL Server
-
-Identity (Authentication & Authorization)
-
-# Additional Notes
+## 🌐 Live Demo
+**Link:** [Check the Live Site Here] (http://laptopstore1.runasp.net/)
 
 
-Live Website: http://laptopstore1.runasp.net/
+## 🚀 Tech Stack
 
-# How to Run the Project Locally
+- **Framework:** ASP.NET Core 6.0 (MVC)
+- **Security:** ASP.NET Core Identity (Authentication & Authorization)
+- **Database:** Microsoft SQL Server
+- **ORM:** Entity Framework Core
+- **Frontend:** Razor Views, HTML5, CSS3, Bootstrap, and JavaScript.
 
-1:-Update the Database Connection Settings:
+## 🏗️ Architecture & Best Practices
 
-Open appsettings.json
+- **Repository Pattern:** Abstracted data access layer to decouple business logic from the database, making the code more testable and organized.
+- **Identity Framework:** Managed user registration, login, and Role-Based Access Control (RBAC).
+- **Partial Views:** Optimized UI by using Partial Views for reusable components (e.g., Product Cards), ensuring cleaner and more maintainable Razor code (DRY Principle).
+- **MVC Pattern:** Logical separation between UI (Razor), Business Logic (Controllers), and Data (Models).
 
-Modify the ConnectionStrings value to match your local SQL Server and database name.
+## 👥 User Roles & Permissions
 
-2:-Restore the Database:
+### 🔑 Admin Credentials (For Testing)
+- **Email:** `ibrahemtabaneh@gmail.com`
+- **Password:** `123456`
 
-Use SQL Server Management Studio (SSMS) to restore the LapShopDB.bak backup file.
+**Admin Features:**
+- Access to the **Admin Dashboard**.
+- Full CRUD operations: Add, Edit, and Delete laptop products.
+- Monitoring and managing customer orders.
 
-Make sure the restored database name matches the one in appsettings.json.
+### 👤 Customer Features
+- **Self-Registration:** New users can securely create their own accounts.
+- **Smart Suggestions:** Displays related products based on price range for a better shopping experience.
+- **Shopping Cart:** Full functionality to add, update, and manage items before checkout.
+- **Order Management:** Securely place and track personal order history.
 
-3:-Run the Project:
+## 🗄️ Database Management
 
-Open the project in Visual Studio
+- **Entity Framework Migrations:** The database schema is fully managed via EF Core Migrations.
+- **Setup:** Once the connection string is configured in `appsettings.json`, simply run `Update-Database` in the Package Manager Console to generate the full schema.
 
-Click "Restore NuGet Packages" if needed
 
-Run the project using IIS Express or Kestrel
-
-# Database
-
-Source:https://drive.google.com/file/d/1pdDlBcSIp3YEfbqMiVFY5VazjhO4HQm3/view?usp=drive_link
+📫 **Connect with me:** [LinkedIn](www.linkedin.com/in/ibrahem-tabaneh-249683249)
