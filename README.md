@@ -43,5 +43,19 @@ A robust e-commerce web application dedicated to laptops, developed using the AS
 - **Entity Framework Migrations:** The database schema is fully managed via EF Core Migrations.
 - **Setup:** Once the connection string is configured in `appsettings.json`, simply run `Update-Database` in the Package Manager Console to generate the full schema.
 
+ ## 📸 Project Screenshots
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7abed7e0-5872-4312-8ba5-3080393cfeda" width="48%" alt="Screenshot 1" />
+  <img src="https://github.com/user-attachments/assets/7a8be36b-76b5-4ad1-811b-728cb5ed15bb" width="48%" alt="Screenshot 2" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/85e5dc31-a5e3-4530-8173-b1cb596e7ad8" width="97%" alt="Screenshot 3" />
+</div>
+
+
 
 📫 **Connect with me:** [LinkedIn](www.linkedin.com/in/ibrahem-tabaneh-249683249)
